@@ -67,6 +67,8 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
     ism→  isMounted()
 
+    prc→  pure redux component skeleton
+
   props→  this.props.
 
      pt→  propTypes { ... }
