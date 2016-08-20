@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (props) => {
+	
+	return (
+
+	);
+
+};
+
+$1.propTypes = {
+	${2:name}: React.PropTypes.${3:string},
+};
+
+export default $1;
+
+]]></content>
+	<tabTrigger>rfc</tabTrigger>
+	<scope>source.js</scope>
+	<description>React: stateless functional component</description>
+</snippet>
